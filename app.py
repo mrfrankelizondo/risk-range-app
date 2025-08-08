@@ -7,6 +7,7 @@ import datetime as dt
 from risk_range import fetch_prices, compute_indicators, build_risk_range, make_table
 
 
+
 st.set_page_config(page_title="Multi-Stock Risk Range", layout="wide")
 
 st.title("📊 Multi-Stock Risk Range Comparison — Price • Volume • Volatility")
